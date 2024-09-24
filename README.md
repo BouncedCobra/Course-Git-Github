@@ -27,6 +27,14 @@ Ver segimiento de archivos
 
 * git status
 
+Remover archivos del seguimiento
+
+* git reset < Nombre del archivo >
+
+Regresar el proyecto a el commit anterior
+
+* git checkout -- .
+
 ## Notas
 
 Si ejecutar un comando no regresa un mensaje es que se hizo correctamente
