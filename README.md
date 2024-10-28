@@ -75,6 +75,22 @@ Regresar al commit anterior y quitar los archivos del seguimiento y eliminar los
 
 * git reset --hard HEAD^
 
+Subir los cambios a un repositorio remoto
+
+* git push origin < Nombre de la rama >
+
+Regresar a un commit anterior
+
+* git reset --soft < Hash del commit >
+
+o
+
+* git reset --hard < Hash del commit >
+
+o
+
+* git reset --mixed < Hash del commit > (por defecto si no se agregan argumentos)
+
 ## Notas
 
 Si ejecutar un comando no regresa un mensaje es que se hizo correctamente
