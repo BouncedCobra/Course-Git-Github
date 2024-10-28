@@ -91,6 +91,10 @@ o
 
 * git reset --mixed < Hash del commit > (por defecto si no se agregan argumentos)
 
+Recuperar commits eliminados
+
+* git reflog
+
 ## Notas
 
 Si ejecutar un comando no regresa un mensaje es que se hizo correctamente
